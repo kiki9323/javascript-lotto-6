@@ -1,4 +1,4 @@
-import CONSTANTS from '../../Lib/constans.js';
+import CONSTANTS from '../../constants/constans.js';
 import { Random } from '@woowacourse/mission-utils';
 
 class LottoGenerator {

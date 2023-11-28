@@ -1,6 +1,6 @@
 import AppError from '../../errors/error.js';
-import CONSTANTS from '../../Lib/constans.js';
-import ERROR from '../../Lib/error.js';
+import CONSTANTS from '../../constants/constans.js';
+import ERROR from '../../constants/error.js';
 import { isValidNumber } from './utils.js';
 
 class Lotto {

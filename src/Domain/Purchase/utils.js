@@ -1,4 +1,4 @@
-import CONSTANTS from '../../Lib/constans.js';
+import CONSTANTS from '../../constants/constans.js';
 
 /**
  * 주어진 금액을 1000원으로 나누어 로또 티켓의 개수를 계산하는 함수

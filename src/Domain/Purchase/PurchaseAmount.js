@@ -1,4 +1,4 @@
-import OutputHandler from '../../View/OutputHandler.js';
+import OutputHandler from '../../view/OutputHandler.js';
 import { calculateTicketCountFromAmount } from './utils.js';
 
 class PurchaseAmount {

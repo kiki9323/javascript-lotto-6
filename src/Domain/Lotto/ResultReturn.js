@@ -1,5 +1,5 @@
-import CONSTANTS from '../../Lib/constans.js';
-import OutputHandler from '../../View/OutputHandler.js';
+import CONSTANTS from '../../constants/constans.js';
+import OutputHandler from '../../view/OutputHandler.js';
 
 class ResultReturn {
   /**

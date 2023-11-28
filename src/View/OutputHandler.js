@@ -1,6 +1,6 @@
 import { Console } from '@woowacourse/mission-utils';
-import MESSAGE from '../Lib/message.js';
-import { MessageFormat } from '../Lib/messageFormat.js';
+import MESSAGE from '../constants/message.js';
+import { MessageFormat } from '../lib/messageFormat.js';
 
 class OutputHandler {
   static print(message) {

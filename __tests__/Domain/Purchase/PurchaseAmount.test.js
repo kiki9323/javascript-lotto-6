@@ -1,5 +1,5 @@
 import { MissionUtils } from '@woowacourse/mission-utils';
-import PurchaseAmount from '../../../src/Domain/Purchase/PurchaseAmount.js';
+import PurchaseAmount from '../../../src/domain/Purchase/PurchaseAmount.js';
 
 describe('PurchaseAmount', () => {
   let purchaseAmount;

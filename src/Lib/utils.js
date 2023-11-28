@@ -1,4 +1,4 @@
-import OutputHandler from '../View/OutputHandler.js';
+import OutputHandler from '../view/OutputHandler.js';
 
 /**
  * 객체의 모든 하위 객체까지 불변성을 보장하는 함수

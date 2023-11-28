@@ -1,5 +1,5 @@
-import CONSTANTS from './constans.js';
-import ERROR from './error.js';
+import CONSTANTS from '../constants/constans.js';
+import ERROR from '../constants/error.js';
 import { formatNumberWithCommasAndDecimals } from './utils.js';
 
 export const MessageFormat = {

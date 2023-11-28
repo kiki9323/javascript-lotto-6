@@ -1,6 +1,6 @@
-import CONSTANTS from '../../../src/Lib/constans.js';
-import { MessageFormat } from '../../../src/Lib/messageFormat.js';
-import ResultReturn from '../../../src/Domain/Lotto/ResultReturn.js';
+import CONSTANTS from '../../../src/constants/constans.js';
+import { MessageFormat } from '../../../src/lib/messageFormat.js';
+import ResultReturn from '../../../src/domain/Lotto/ResultReturn.js';
 
 describe('ResultReturn', () => {
   let resultReturn;

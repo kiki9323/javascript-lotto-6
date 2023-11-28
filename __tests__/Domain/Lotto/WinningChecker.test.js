@@ -1,6 +1,6 @@
-import CONSTANTS from '../../../src/Lib/constans.js';
+import CONSTANTS from '../../../src/constants/constans.js';
 import { MissionUtils } from '@woowacourse/mission-utils';
-import WinningChecker from '../../../src/Domain/Lotto/WinningChecker.js';
+import WinningChecker from '../../../src/domain/Lotto/WinningChecker.js';
 
 const getLogSpy = () => {
   const logSpy = jest.spyOn(MissionUtils.Console, 'print');
