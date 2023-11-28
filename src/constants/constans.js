@@ -1,4 +1,4 @@
-import { deepFreeze } from './utils.js';
+import { deepFreeze } from '../lib/utils.js';
 
 const lottoPrizesMap = deepFreeze(
   new Map([
