@@ -27,8 +27,7 @@ class ResultReturn {
       const count = matchingResult[key];
       const prizeInfo = CONSTANTS.lottoPrizesMap.get(key);
 
-      if (prizeInfo) total += prizeInfo.prize * count;
-
+      if (count) total += prizeInfo.prize * count;
       return total;
     }, 0);
   }
