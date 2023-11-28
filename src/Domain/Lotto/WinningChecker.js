@@ -25,13 +25,7 @@ class WinningChecker {
 
     const { winningMin, bonus } = CONSTANTS.number;
     const { count: bonusCount, key: bonusKey } = bonus;
-    const result = {
-      3: 0,
-      4: 0,
-      5: 0,
-      '5_bonus': 0,
-      6: 0,
-    };
+    const result = { 3: 0, 4: 0, 5: 0, '5_bonus': 0, 6: 0 };
 
     lottoList.forEach((lotto) => {
       const matchedNumbers = this.winningNumbers.map(Number).filter((num) => lotto.includes(num));
